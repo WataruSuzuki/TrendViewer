@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0B634AD1E1F1BF800DDB1F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B634AC1E1F1BF800DDB1F6 /* AppDelegate.swift */; };
+		F0B634AF1E1F1BF800DDB1F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B634AE1E1F1BF800DDB1F6 /* ViewController.swift */; };
+		F0B634B21E1F1BF800DDB1F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B634B01E1F1BF800DDB1F6 /* Main.storyboard */; };
+		F0B634B41E1F1BF800DDB1F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B634B31E1F1BF800DDB1F6 /* Assets.xcassets */; };
+		F0B634B71E1F1BF800DDB1F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B634B51E1F1BF800DDB1F6 /* LaunchScreen.storyboard */; };
+		F0B634C21E1F1BF900DDB1F6 /* TrendViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B634C11E1F1BF900DDB1F6 /* TrendViewerTests.swift */; };
+		F0B634CD1E1F1BF900DDB1F6 /* TrendViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B634CC1E1F1BF900DDB1F6 /* TrendViewerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0B634BE1E1F1BF900DDB1F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0B634A11E1F1BF800DDB1F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0B634A81E1F1BF800DDB1F6;
+			remoteInfo = TrendViewer;
+		};
+		F0B634C91E1F1BF900DDB1F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0B634A11E1F1BF800DDB1F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0B634A81E1F1BF800DDB1F6;
+			remoteInfo = TrendViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0B634A91E1F1BF800DDB1F6 /* TrendViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B634AC1E1F1BF800DDB1F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0B634AE1E1F1BF800DDB1F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0B634B11E1F1BF800DDB1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0B634B31E1F1BF800DDB1F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0B634B61E1F1BF800DDB1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0B634B81E1F1BF900DDB1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B634BD1E1F1BF900DDB1F6 /* TrendViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B634C11E1F1BF900DDB1F6 /* TrendViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewerTests.swift; sourceTree = "<group>"; };
+		F0B634C31E1F1BF900DDB1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B634C81E1F1BF900DDB1F6 /* TrendViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B634CC1E1F1BF900DDB1F6 /* TrendViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewerUITests.swift; sourceTree = "<group>"; };
+		F0B634CE1E1F1BF900DDB1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0B634A61E1F1BF800DDB1F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B634BA1E1F1BF900DDB1F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B634C51E1F1BF900DDB1F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0B634A01E1F1BF800DDB1F6 = {
+			isa = PBXGroup;
+			children = (
+				F0B634AB1E1F1BF800DDB1F6 /* TrendViewer */,
+				F0B634C01E1F1BF900DDB1F6 /* TrendViewerTests */,
+				F0B634CB1E1F1BF900DDB1F6 /* TrendViewerUITests */,
+				F0B634AA1E1F1BF800DDB1F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0B634AA1E1F1BF800DDB1F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0B634A91E1F1BF800DDB1F6 /* TrendViewer.app */,
+				F0B634BD1E1F1BF900DDB1F6 /* TrendViewerTests.xctest */,
+				F0B634C81E1F1BF900DDB1F6 /* TrendViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0B634AB1E1F1BF800DDB1F6 /* TrendViewer */ = {
+			isa = PBXGroup;
+			children = (
+				F0B634AC1E1F1BF800DDB1F6 /* AppDelegate.swift */,
+				F0B634AE1E1F1BF800DDB1F6 /* ViewController.swift */,
+				F0B634B01E1F1BF800DDB1F6 /* Main.storyboard */,
+				F0B634B31E1F1BF800DDB1F6 /* Assets.xcassets */,
+				F0B634B51E1F1BF800DDB1F6 /* LaunchScreen.storyboard */,
+				F0B634B81E1F1BF900DDB1F6 /* Info.plist */,
+			);
+			path = TrendViewer;
+			sourceTree = "<group>";
+		};
+		F0B634C01E1F1BF900DDB1F6 /* TrendViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0B634C11E1F1BF900DDB1F6 /* TrendViewerTests.swift */,
+				F0B634C31E1F1BF900DDB1F6 /* Info.plist */,
+			);
+			path = TrendViewerTests;
+			sourceTree = "<group>";
+		};
+		F0B634CB1E1F1BF900DDB1F6 /* TrendViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0B634CC1E1F1BF900DDB1F6 /* TrendViewerUITests.swift */,
+				F0B634CE1E1F1BF900DDB1F6 /* Info.plist */,
+			);
+			path = TrendViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0B634A81E1F1BF800DDB1F6 /* TrendViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B634D11E1F1BF900DDB1F6 /* Build configuration list for PBXNativeTarget "TrendViewer" */;
+			buildPhases = (
+				F0B634A51E1F1BF800DDB1F6 /* Sources */,
+				F0B634A61E1F1BF800DDB1F6 /* Frameworks */,
+				F0B634A71E1F1BF800DDB1F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrendViewer;
+			productName = TrendViewer;
+			productReference = F0B634A91E1F1BF800DDB1F6 /* TrendViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0B634BC1E1F1BF900DDB1F6 /* TrendViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B634D41E1F1BF900DDB1F6 /* Build configuration list for PBXNativeTarget "TrendViewerTests" */;
+			buildPhases = (
+				F0B634B91E1F1BF900DDB1F6 /* Sources */,
+				F0B634BA1E1F1BF900DDB1F6 /* Frameworks */,
+				F0B634BB1E1F1BF900DDB1F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0B634BF1E1F1BF900DDB1F6 /* PBXTargetDependency */,
+			);
+			name = TrendViewerTests;
+			productName = TrendViewerTests;
+			productReference = F0B634BD1E1F1BF900DDB1F6 /* TrendViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0B634C71E1F1BF900DDB1F6 /* TrendViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B634D71E1F1BF900DDB1F6 /* Build configuration list for PBXNativeTarget "TrendViewerUITests" */;
+			buildPhases = (
+				F0B634C41E1F1BF900DDB1F6 /* Sources */,
+				F0B634C51E1F1BF900DDB1F6 /* Frameworks */,
+				F0B634C61E1F1BF900DDB1F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0B634CA1E1F1BF900DDB1F6 /* PBXTargetDependency */,
+			);
+			name = TrendViewerUITests;
+			productName = TrendViewerUITests;
+			productReference = F0B634C81E1F1BF900DDB1F6 /* TrendViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0B634A11E1F1BF800DDB1F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = WataruSuzuki;
+				TargetAttributes = {
+					F0B634A81E1F1BF800DDB1F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F35G39V2UB;
+						ProvisioningStyle = Automatic;
+					};
+					F0B634BC1E1F1BF900DDB1F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F35G39V2UB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0B634A81E1F1BF800DDB1F6;
+					};
+					F0B634C71E1F1BF900DDB1F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F35G39V2UB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0B634A81E1F1BF800DDB1F6;
+					};
+				};
+			};
+			buildConfigurationList = F0B634A41E1F1BF800DDB1F6 /* Build configuration list for PBXProject "TrendViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0B634A01E1F1BF800DDB1F6;
+			productRefGroup = F0B634AA1E1F1BF800DDB1F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0B634A81E1F1BF800DDB1F6 /* TrendViewer */,
+				F0B634BC1E1F1BF900DDB1F6 /* TrendViewerTests */,
+				F0B634C71E1F1BF900DDB1F6 /* TrendViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0B634A71E1F1BF800DDB1F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B634B71E1F1BF800DDB1F6 /* LaunchScreen.storyboard in Resources */,
+				F0B634B41E1F1BF800DDB1F6 /* Assets.xcassets in Resources */,
+				F0B634B21E1F1BF800DDB1F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B634BB1E1F1BF900DDB1F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B634C61E1F1BF900DDB1F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0B634A51E1F1BF800DDB1F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B634AF1E1F1BF800DDB1F6 /* ViewController.swift in Sources */,
+				F0B634AD1E1F1BF800DDB1F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B634B91E1F1BF900DDB1F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B634C21E1F1BF900DDB1F6 /* TrendViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B634C41E1F1BF900DDB1F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B634CD1E1F1BF900DDB1F6 /* TrendViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0B634BF1E1F1BF900DDB1F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0B634A81E1F1BF800DDB1F6 /* TrendViewer */;
+			targetProxy = F0B634BE1E1F1BF900DDB1F6 /* PBXContainerItemProxy */;
+		};
+		F0B634CA1E1F1BF900DDB1F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0B634A81E1F1BF800DDB1F6 /* TrendViewer */;
+			targetProxy = F0B634C91E1F1BF900DDB1F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0B634B01E1F1BF800DDB1F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0B634B11E1F1BF800DDB1F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0B634B51E1F1BF800DDB1F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0B634B61E1F1BF800DDB1F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0B634CF1E1F1BF900DDB1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0B634D01E1F1BF900DDB1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0B634D21E1F1BF900DDB1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F35G39V2UB;
+				INFOPLIST_FILE = TrendViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wataru.suzuki.TrendViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F0B634D31E1F1BF900DDB1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F35G39V2UB;
+				INFOPLIST_FILE = TrendViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wataru.suzuki.TrendViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F0B634D51E1F1BF900DDB1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F35G39V2UB;
+				INFOPLIST_FILE = TrendViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wataru.suzuki.TrendViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrendViewer.app/TrendViewer";
+			};
+			name = Debug;
+		};
+		F0B634D61E1F1BF900DDB1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F35G39V2UB;
+				INFOPLIST_FILE = TrendViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wataru.suzuki.TrendViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrendViewer.app/TrendViewer";
+			};
+			name = Release;
+		};
+		F0B634D81E1F1BF900DDB1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F35G39V2UB;
+				INFOPLIST_FILE = TrendViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wataru.suzuki.TrendViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TrendViewer;
+			};
+			name = Debug;
+		};
+		F0B634D91E1F1BF900DDB1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F35G39V2UB;
+				INFOPLIST_FILE = TrendViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wataru.suzuki.TrendViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TrendViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0B634A41E1F1BF800DDB1F6 /* Build configuration list for PBXProject "TrendViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B634CF1E1F1BF900DDB1F6 /* Debug */,
+				F0B634D01E1F1BF900DDB1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B634D11E1F1BF900DDB1F6 /* Build configuration list for PBXNativeTarget "TrendViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B634D21E1F1BF900DDB1F6 /* Debug */,
+				F0B634D31E1F1BF900DDB1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0B634D41E1F1BF900DDB1F6 /* Build configuration list for PBXNativeTarget "TrendViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B634D51E1F1BF900DDB1F6 /* Debug */,
+				F0B634D61E1F1BF900DDB1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0B634D71E1F1BF900DDB1F6 /* Build configuration list for PBXNativeTarget "TrendViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B634D81E1F1BF900DDB1F6 /* Debug */,
+				F0B634D91E1F1BF900DDB1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0B634A11E1F1BF800DDB1F6 /* Project object */;
+}
