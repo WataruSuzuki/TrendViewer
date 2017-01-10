@@ -1,0 +1,15 @@
+PODS:
+  - FlickrKit (1.0.8)
+  - STTwitter (0.2.5)
+
+DEPENDENCIES:
+  - FlickrKit
+  - STTwitter
+
+SPEC CHECKSUMS:
+  FlickrKit: beadf880a10ccaa2f13666d04112324fe08815e2
+  STTwitter: 5c157e8dcb4f0e4cf5b4374393021b7d7b7fd497
+
+PODFILE CHECKSUM: 59a1a3e409a4eddfc1abfb4b96e4055807487bd4
+
+COCOAPODS: 1.1.1

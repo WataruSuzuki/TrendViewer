@@ -1,0 +1,6 @@
+framework module Pods_TrendViewer {
+  umbrella header "Pods-TrendViewer-umbrella.h"
+
+  export *
+  module * { export * }
+}

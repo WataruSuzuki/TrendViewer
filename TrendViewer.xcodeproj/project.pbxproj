@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E97472F6CE0CB3B90B0BB29 /* Pods_TrendViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56400EA8438633F031976128 /* Pods_TrendViewer.framework */; };
 		F0B634AD1E1F1BF800DDB1F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B634AC1E1F1BF800DDB1F6 /* AppDelegate.swift */; };
 		F0B634AF1E1F1BF800DDB1F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B634AE1E1F1BF800DDB1F6 /* ViewController.swift */; };
 		F0B634B21E1F1BF800DDB1F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B634B01E1F1BF800DDB1F6 /* Main.storyboard */; };
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DBAF04C40831EC4EBA4D494 /* Pods-TrendViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrendViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrendViewer/Pods-TrendViewer.release.xcconfig"; sourceTree = "<group>"; };
+		56400EA8438633F031976128 /* Pods_TrendViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrendViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBBCAA0F176B4127DCEF5D7 /* Pods-TrendViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrendViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrendViewer/Pods-TrendViewer.debug.xcconfig"; sourceTree = "<group>"; };
 		F0B634A91E1F1BF800DDB1F6 /* TrendViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B634AC1E1F1BF800DDB1F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0B634AE1E1F1BF800DDB1F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E97472F6CE0CB3B90B0BB29 /* Pods_TrendViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76094EC5CFD7381C6D71DC7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBBBCAA0F176B4127DCEF5D7 /* Pods-TrendViewer.debug.xcconfig */,
+				1DBAF04C40831EC4EBA4D494 /* Pods-TrendViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B97B97CFE4D11AD422E9A424 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56400EA8438633F031976128 /* Pods_TrendViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F0B634A01E1F1BF800DDB1F6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				F0B634C01E1F1BF900DDB1F6 /* TrendViewerTests */,
 				F0B634CB1E1F1BF900DDB1F6 /* TrendViewerUITests */,
 				F0B634AA1E1F1BF800DDB1F6 /* Products */,
+				76094EC5CFD7381C6D71DC7B /* Pods */,
+				B97B97CFE4D11AD422E9A424 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0B634D11E1F1BF900DDB1F6 /* Build configuration list for PBXNativeTarget "TrendViewer" */;
 			buildPhases = (
+				9E61ECFA1E3CD533FD23BE20 /* [CP] Check Pods Manifest.lock */,
 				F0B634A51E1F1BF800DDB1F6 /* Sources */,
 				F0B634A61E1F1BF800DDB1F6 /* Frameworks */,
 				F0B634A71E1F1BF800DDB1F6 /* Resources */,
+				1B32C308B1CD048D6D0F4F0E /* [CP] Embed Pods Frameworks */,
+				D12BA375846BFC2459191A83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +283,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B32C308B1CD048D6D0F4F0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrendViewer/Pods-TrendViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E61ECFA1E3CD533FD23BE20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D12BA375846BFC2459191A83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrendViewer/Pods-TrendViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F0B634A51E1F1BF800DDB1F6 /* Sources */ = {
@@ -413,6 +488,7 @@
 		};
 		F0B634D21E1F1BF900DDB1F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBBBCAA0F176B4127DCEF5D7 /* Pods-TrendViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F35G39V2UB;
@@ -426,6 +502,7 @@
 		};
 		F0B634D31E1F1BF900DDB1F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DBAF04C40831EC4EBA4D494 /* Pods-TrendViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F35G39V2UB;
