@@ -15,6 +15,8 @@
 		F0B634B71E1F1BF800DDB1F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B634B51E1F1BF800DDB1F6 /* LaunchScreen.storyboard */; };
 		F0B634C21E1F1BF900DDB1F6 /* TrendViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B634C11E1F1BF900DDB1F6 /* TrendViewerTests.swift */; };
 		F0B634CD1E1F1BF900DDB1F6 /* TrendViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B634CC1E1F1BF900DDB1F6 /* TrendViewerUITests.swift */; };
+		F0EF03D71E270468001AE39B /* FlickrKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF03CD1E270468001AE39B /* FlickrKitService.swift */; };
+		F0EF03D81E270468001AE39B /* TwitterAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF03CE1E270468001AE39B /* TwitterAPIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F0B634C81E1F1BF900DDB1F6 /* TrendViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B634CC1E1F1BF900DDB1F6 /* TrendViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewerUITests.swift; sourceTree = "<group>"; };
 		F0B634CE1E1F1BF900DDB1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0EF03CD1E270468001AE39B /* FlickrKitService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrKitService.swift; sourceTree = "<group>"; };
+		F0EF03CE1E270468001AE39B /* TwitterAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 		F0B634AB1E1F1BF800DDB1F6 /* TrendViewer */ = {
 			isa = PBXGroup;
 			children = (
+				F0EF03CC1E270468001AE39B /* Sevices */,
 				F0B634AC1E1F1BF800DDB1F6 /* AppDelegate.swift */,
 				F0B634AE1E1F1BF800DDB1F6 /* ViewController.swift */,
 				F0B634B01E1F1BF800DDB1F6 /* Main.storyboard */,
@@ -147,6 +152,15 @@
 				F0B634CE1E1F1BF900DDB1F6 /* Info.plist */,
 			);
 			path = TrendViewerUITests;
+			sourceTree = "<group>";
+		};
+		F0EF03CC1E270468001AE39B /* Sevices */ = {
+			isa = PBXGroup;
+			children = (
+				F0EF03CD1E270468001AE39B /* FlickrKitService.swift */,
+				F0EF03CE1E270468001AE39B /* TwitterAPIService.swift */,
+			);
+			path = Sevices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,7 +352,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0B634AF1E1F1BF800DDB1F6 /* ViewController.swift in Sources */,
+				F0EF03D81E270468001AE39B /* TwitterAPIService.swift in Sources */,
 				F0B634AD1E1F1BF800DDB1F6 /* AppDelegate.swift in Sources */,
+				F0EF03D71E270468001AE39B /* FlickrKitService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
