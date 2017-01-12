@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3E97472F6CE0CB3B90B0BB29 /* Pods_TrendViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56400EA8438633F031976128 /* Pods_TrendViewer.framework */; };
 		F0B634AD1E1F1BF800DDB1F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B634AC1E1F1BF800DDB1F6 /* AppDelegate.swift */; };
-		F0B634AF1E1F1BF800DDB1F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B634AE1E1F1BF800DDB1F6 /* ViewController.swift */; };
 		F0B634B21E1F1BF800DDB1F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B634B01E1F1BF800DDB1F6 /* Main.storyboard */; };
 		F0B634B41E1F1BF800DDB1F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B634B31E1F1BF800DDB1F6 /* Assets.xcassets */; };
 		F0B634B71E1F1BF800DDB1F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B634B51E1F1BF800DDB1F6 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,11 @@
 		F0B634CD1E1F1BF900DDB1F6 /* TrendViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B634CC1E1F1BF900DDB1F6 /* TrendViewerUITests.swift */; };
 		F0EF03D71E270468001AE39B /* FlickrKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF03CD1E270468001AE39B /* FlickrKitService.swift */; };
 		F0EF03D81E270468001AE39B /* TwitterAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF03CE1E270468001AE39B /* TwitterAPIService.swift */; };
+		F0EF03D91E270468001AE39B /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF03D01E270468001AE39B /* AuthViewController.swift */; };
+		F0EF03DA1E270468001AE39B /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF03D11E270468001AE39B /* PhotoViewController.swift */; };
+		F0EF03DB1E270468001AE39B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF03D21E270468001AE39B /* SettingsViewController.swift */; };
+		F0EF03DC1E270468001AE39B /* TrendPicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF03D31E270468001AE39B /* TrendPicturesViewController.swift */; };
+		F0EF03E01E2704CC001AE39B /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0EF03DF1E2704CC001AE39B /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +46,6 @@
 		EBBBCAA0F176B4127DCEF5D7 /* Pods-TrendViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrendViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrendViewer/Pods-TrendViewer.debug.xcconfig"; sourceTree = "<group>"; };
 		F0B634A91E1F1BF800DDB1F6 /* TrendViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B634AC1E1F1BF800DDB1F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0B634AE1E1F1BF800DDB1F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F0B634B11E1F1BF800DDB1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0B634B31E1F1BF800DDB1F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0B634B61E1F1BF800DDB1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +58,11 @@
 		F0B634CE1E1F1BF900DDB1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0EF03CD1E270468001AE39B /* FlickrKitService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrKitService.swift; sourceTree = "<group>"; };
 		F0EF03CE1E270468001AE39B /* TwitterAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPIService.swift; sourceTree = "<group>"; };
+		F0EF03D01E270468001AE39B /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		F0EF03D11E270468001AE39B /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		F0EF03D21E270468001AE39B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F0EF03D31E270468001AE39B /* TrendPicturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendPicturesViewController.swift; sourceTree = "<group>"; };
+		F0EF03DF1E2704CC001AE39B /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,9 +134,10 @@
 			isa = PBXGroup;
 			children = (
 				F0EF03CC1E270468001AE39B /* Sevices */,
+				F0EF03CF1E270468001AE39B /* ViewControllers */,
 				F0B634AC1E1F1BF800DDB1F6 /* AppDelegate.swift */,
-				F0B634AE1E1F1BF800DDB1F6 /* ViewController.swift */,
 				F0B634B01E1F1BF800DDB1F6 /* Main.storyboard */,
+				F0EF03DF1E2704CC001AE39B /* Login.storyboard */,
 				F0B634B31E1F1BF800DDB1F6 /* Assets.xcassets */,
 				F0B634B51E1F1BF800DDB1F6 /* LaunchScreen.storyboard */,
 				F0B634B81E1F1BF900DDB1F6 /* Info.plist */,
@@ -161,6 +170,17 @@
 				F0EF03CE1E270468001AE39B /* TwitterAPIService.swift */,
 			);
 			path = Sevices;
+			sourceTree = "<group>";
+		};
+		F0EF03CF1E270468001AE39B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0EF03D01E270468001AE39B /* AuthViewController.swift */,
+				F0EF03D11E270468001AE39B /* PhotoViewController.swift */,
+				F0EF03D21E270468001AE39B /* SettingsViewController.swift */,
+				F0EF03D31E270468001AE39B /* TrendPicturesViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +298,7 @@
 			files = (
 				F0B634B71E1F1BF800DDB1F6 /* LaunchScreen.storyboard in Resources */,
 				F0B634B41E1F1BF800DDB1F6 /* Assets.xcassets in Resources */,
+				F0EF03E01E2704CC001AE39B /* Login.storyboard in Resources */,
 				F0B634B21E1F1BF800DDB1F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,10 +372,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0B634AF1E1F1BF800DDB1F6 /* ViewController.swift in Sources */,
 				F0EF03D81E270468001AE39B /* TwitterAPIService.swift in Sources */,
+				F0EF03DB1E270468001AE39B /* SettingsViewController.swift in Sources */,
+				F0EF03D91E270468001AE39B /* AuthViewController.swift in Sources */,
 				F0B634AD1E1F1BF800DDB1F6 /* AppDelegate.swift in Sources */,
+				F0EF03DC1E270468001AE39B /* TrendPicturesViewController.swift in Sources */,
 				F0EF03D71E270468001AE39B /* FlickrKitService.swift in Sources */,
+				F0EF03DA1E270468001AE39B /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

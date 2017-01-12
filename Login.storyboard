@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="etM-rm-Mj8">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Jav-ue-9os">
+            <objects>
+                <navigationController storyboardIdentifier="AuthNavigationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="etM-rm-Mj8" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5nv-st-tL4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BXN-f6-9SP" kind="relationship" relationship="rootViewController" id="sKA-lc-oeA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XSz-vW-Oma" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-505" y="136"/>
+        </scene>
+        <!--Auth View Controller-->
+        <scene sceneID="l5I-9B-Ell">
+            <objects>
+                <viewController storyboardIdentifier="AuthViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BXN-f6-9SP" customClass="AuthViewController" customModule="TrendViewer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="51z-3A-2SK"/>
+                        <viewControllerLayoutGuide type="bottom" id="t2w-fd-Mi4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aM6-2z-xTA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TP0-Sy-Nfh">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BXN-f6-9SP" id="KR5-vx-Vil"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TP0-Sy-Nfh" secondAttribute="trailing" id="2XX-wQ-sgE"/>
+                            <constraint firstItem="TP0-Sy-Nfh" firstAttribute="leading" secondItem="aM6-2z-xTA" secondAttribute="leading" id="2hA-Bv-PJf"/>
+                            <constraint firstItem="TP0-Sy-Nfh" firstAttribute="top" secondItem="aM6-2z-xTA" secondAttribute="top" constant="20" id="9CQ-IY-DWu"/>
+                            <constraint firstItem="t2w-fd-Mi4" firstAttribute="top" secondItem="TP0-Sy-Nfh" secondAttribute="bottom" id="Aky-sM-slO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="YRg-we-aIM">
+                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="1cv-4e-WZf">
+                            <connections>
+                                <action selector="stop" destination="BXN-f6-9SP" id="tY0-5f-kub"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="webView" destination="TP0-Sy-Nfh" id="9GU-5m-Gnc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="evD-A0-0GO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="368.80000000000001" y="134.48275862068968"/>
+        </scene>
+    </scenes>
+</document>
