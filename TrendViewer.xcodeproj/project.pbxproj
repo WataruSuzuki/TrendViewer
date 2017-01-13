@@ -20,6 +20,8 @@
 		F0EF03DA1E270468001AE39B /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF03D11E270468001AE39B /* PhotoViewController.swift */; };
 		F0EF03DB1E270468001AE39B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF03D21E270468001AE39B /* SettingsViewController.swift */; };
 		F0EF03DC1E270468001AE39B /* TrendPicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF03D31E270468001AE39B /* TrendPicturesViewController.swift */; };
+		F0EF03DD1E270468001AE39B /* PhotoLoadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF03D51E270468001AE39B /* PhotoLoadCell.swift */; };
+		F0EF03DE1E270468001AE39B /* PhotoLoadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0EF03D61E270468001AE39B /* PhotoLoadCell.xib */; };
 		F0EF03E01E2704CC001AE39B /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0EF03DF1E2704CC001AE39B /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,8 @@
 		F0EF03D11E270468001AE39B /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		F0EF03D21E270468001AE39B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		F0EF03D31E270468001AE39B /* TrendPicturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendPicturesViewController.swift; sourceTree = "<group>"; };
+		F0EF03D51E270468001AE39B /* PhotoLoadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLoadCell.swift; sourceTree = "<group>"; };
+		F0EF03D61E270468001AE39B /* PhotoLoadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoLoadCell.xib; sourceTree = "<group>"; };
 		F0EF03DF1E2704CC001AE39B /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -135,6 +139,7 @@
 			children = (
 				F0EF03CC1E270468001AE39B /* Sevices */,
 				F0EF03CF1E270468001AE39B /* ViewControllers */,
+				F0EF03D41E270468001AE39B /* Views */,
 				F0B634AC1E1F1BF800DDB1F6 /* AppDelegate.swift */,
 				F0B634B01E1F1BF800DDB1F6 /* Main.storyboard */,
 				F0EF03DF1E2704CC001AE39B /* Login.storyboard */,
@@ -181,6 +186,15 @@
 				F0EF03D31E270468001AE39B /* TrendPicturesViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F0EF03D41E270468001AE39B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0EF03D51E270468001AE39B /* PhotoLoadCell.swift */,
+				F0EF03D61E270468001AE39B /* PhotoLoadCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0EF03DE1E270468001AE39B /* PhotoLoadCell.xib in Resources */,
 				F0B634B71E1F1BF800DDB1F6 /* LaunchScreen.storyboard in Resources */,
 				F0B634B41E1F1BF800DDB1F6 /* Assets.xcassets in Resources */,
 				F0EF03E01E2704CC001AE39B /* Login.storyboard in Resources */,
@@ -373,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0EF03D81E270468001AE39B /* TwitterAPIService.swift in Sources */,
+				F0EF03DD1E270468001AE39B /* PhotoLoadCell.swift in Sources */,
 				F0EF03DB1E270468001AE39B /* SettingsViewController.swift in Sources */,
 				F0EF03D91E270468001AE39B /* AuthViewController.swift in Sources */,
 				F0B634AD1E1F1BF800DDB1F6 /* AppDelegate.swift in Sources */,
