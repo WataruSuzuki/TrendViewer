@@ -362,7 +362,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		D12BA375846BFC2459191A83 /* [CP] Copy Pods Resources */ = {
@@ -647,6 +647,7 @@
 				F0B634D31E1F1BF900DDB1F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0B634D41E1F1BF900DDB1F6 /* Build configuration list for PBXNativeTarget "TrendViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -655,6 +656,7 @@
 				F0B634D61E1F1BF900DDB1F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0B634D71E1F1BF900DDB1F6 /* Build configuration list for PBXNativeTarget "TrendViewerUITests" */ = {
 			isa = XCConfigurationList;
@@ -663,6 +665,7 @@
 				F0B634D91E1F1BF900DDB1F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
